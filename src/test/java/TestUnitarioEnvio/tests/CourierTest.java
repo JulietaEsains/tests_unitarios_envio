@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-
+// hola conflicto
 @SpringBootTest
 public class CourierTest {
     // El courier debe tener un nombre asignado. Es decir si accedemos a la propiedad nombreCourier de un courier, esta debe ser distinta de nula.
@@ -23,3 +23,4 @@ public class CourierTest {
         assertEquals(courier.getNombreCourier().getClass().getSimpleName(), "String");
     }
 }
+//Otro comentario de lucas
