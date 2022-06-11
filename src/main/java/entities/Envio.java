@@ -13,6 +13,11 @@ public class Envio {
         this.fechaCreacion = fechaCreacion;
     }
 
+    public Envio(Integer numeroSeguimiento,Date fechaCreacion) {
+        this.numeroSeguimiento = numeroSeguimiento;
+        this.fechaCreacion = fechaCreacion;
+    }
+
     public Integer getNumeroSeguimiento() {
         return numeroSeguimiento;
     }
