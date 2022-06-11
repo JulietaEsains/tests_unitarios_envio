@@ -2,6 +2,7 @@ package entities;
 
 import java.util.Date;
 
+//Esta clase se refiere al Envío
 public class Envio {
     private Integer numeroSeguimiento;
     private Integer ID_Venta;

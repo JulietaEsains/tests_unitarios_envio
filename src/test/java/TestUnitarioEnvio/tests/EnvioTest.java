@@ -9,7 +9,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-// hola conflicto
+//Esta es la clase EnvíoTest
 @SpringBootTest
 public class EnvioTest {
     //El envío debe tener un número de seguimiento. Es decir si accedemos a la propiedad numeroSeguimiento de un envío, esta debe ser distinta de nula.
