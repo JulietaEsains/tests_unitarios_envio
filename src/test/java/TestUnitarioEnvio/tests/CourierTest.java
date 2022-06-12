@@ -28,4 +28,13 @@ public class CourierTest {
         Courier courier = new Courier("OCA");
         assertEquals(courier.getNombreCourier().getClass().getSimpleName(), "String");
     }
+
+    @Test
+    void validarAsignamientoCantidadEnvios(){
+        Courier courier = new Courier(18);
+
+        assertEquals(courier.getCantidadEnvios(),17);
+
+    }
+
 }
