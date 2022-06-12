@@ -1,6 +1,5 @@
 package entities;
 
-//Esta es la clase Courier 
 public class Courier {
 
     private String nombreCourier;
