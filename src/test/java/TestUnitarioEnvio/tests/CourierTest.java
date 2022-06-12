@@ -16,6 +16,12 @@ public class CourierTest {
         assertNotNull(courier.getNombreCourier());
     }
 
+    @Test
+    void validarAsignamientoNombre(){
+        Courier courier = new Courier("Oca");
+        assertEquals(courier.getNombreCourier(),"OCA");
+    }
+
     //El tipo de dato de la propiedad nombreCourier debe corresponder a un tipo de dato String (cadena de caracteres).
     @Test
      void validarTipoDatoNombre () {
