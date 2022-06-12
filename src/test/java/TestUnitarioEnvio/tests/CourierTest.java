@@ -33,7 +33,7 @@ public class CourierTest {
     void validarAsignamientoCantidadEnvios(){
         Courier courier = new Courier(18);
 
-        assertEquals(courier.getCantidadEnvios(),17);
+        assertEquals(courier.getCantidadEnvios(),18);
 
     }
 
