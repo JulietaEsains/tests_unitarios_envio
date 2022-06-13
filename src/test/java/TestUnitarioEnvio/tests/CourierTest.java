@@ -10,11 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 //Se modifica clase de test
 
 
-<<<<<<< HEAD
 // Conflicto comentario
-=======
-// Comentario de Julieta
->>>>>>> main
+
 
 @SpringBootTest
 public class CourierTest {
