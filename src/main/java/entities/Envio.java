@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Date;
 
-// Comentario para probar git desde la notebook
+// Modificación
 public class Envio {
     private Integer numeroSeguimiento;
     private Integer ID_Venta;
