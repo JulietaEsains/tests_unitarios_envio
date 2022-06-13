@@ -9,6 +9,8 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Se modifica clase test
+
 //Esta es la clase EnvíoTest
 @SpringBootTest
 public class EnvioTest {
